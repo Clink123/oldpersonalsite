@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma", sans-serif;
+}
+
+.breadcrumb2 {
+    position: fixed;
+    height: 10px;
+    width: 100%;
+}
+
+.breadcrumb2 ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    background: url('breadcrumbImage.png') 0px -30px repeat-x;
+}
+
+.breadcrumb2 ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    height: 30px display: inline;
+}
+
+.breadcrumb2 ul li a {
+    font: 20px Arial, Helvetica, sans-serif;
+    color: rgb(189, 195, 199);
+    text-decoration: none;
+    line-height: 30px;
+    display: block;
+    background: url('breadcrumbImage.png') 100% -60px no-repeat;
+    padding: 0 17px 0 15px;
+}
+
+.breadcrumb2 ul li a:hover {
+    color: #ffffff;
+}
+
+.breadcrumb2 .left2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 30px;
+    display: block;
+    z-index: 1;
+    background: url('breadcrumbImage.png') 0% 0px no-repeat;
+}
+
+.breadcrumb .right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 10px;
+    height: 30px;
+    display: block;
+    z-index: 1;
+    background: url('breadcrumbImage.png') 100% -90px no-repeat;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#home h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif, Arial;
+    position: relative;
+    top: 30%;
+}
+
+#home h2 {
+    color: white;
+    font-family: sans-serif, Arial;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+#first {
+    padding-left: 5%;
+    padding-right: 40%;
+}
+
+#about {
+    padding-top: 2rem;
+    text-decoration: none;
+    color: #bdc3c7;
+    background-color: #34495e;
+    margin: 0;
+    padding-bottom: 5rem;
+    
+}
+#about a{
+    color: #bdc3c7;
+    text-decoration: none;
+}
+#about a:hover{
+    color: #ecf0f1;
+}
+
+#languages{
+    margin-left:5%;
+    margin-right: 5%;
+    height: 4rem;
+}
+
+#contact {
+    text-decoration: none;
+    color: black;
+    background-color: #7f8c8d;
+    margin: 0;
+    text-align: justify;
+    text-align: center;
+    
+}
+#contact img{
+    padding-right: 1%;
+}
+#rcorners3 {
+    margin-right: 3rem;
+    float: right;
+    width: auto;
+    height: 20rem;
+    padding-top: 7rem;
+}
+#rcorners2 {
+    margin-left: 5rem;
+    float: left;
+    width: auto;
+    height: 22rem;
+    padding-right: 4rem;
+    padding-top:7vh;
+    padding-bottom: 10vh;
+}
+
+.col {
+    position: absolute;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#hacks {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 40%;
+}
+
+#hobbies {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 40%;
+}
+#projects {
+    text-align: justify;
+    padding-left: 40%;
+    padding-right: 5%;
+    padding-top: 2rem;
+    text-decoration: none;
+    color: #bdc3c7;
+    background-color: #2c3e50;
+    margin: 0;
+    padding-bottom: 5rem;
+    padding-left:5%;
+    
+}
+#projects a{
+    color: #bdc3c7;
+    text-decoration: none;
+}
+#projects a:hover{
+    color: #ecf0f1;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
